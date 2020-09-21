@@ -1,0 +1,56 @@
+
+<!------ Include the above in your HEAD tag ---------->
+<!DOCTYPE html>
+<html lang="en"xmlns:th="http://www.thymeleaf.org">
+    <head> 
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" th:href="@{/static/css/bootstrap.min.css}"></link>
+	<link rel="stylesheet" th:href="@{/static/css/fontawesome.min.css}"></link>
+	<link rel="stylesheet" th:href="@{/static/css/app.css}"></link>
+
+		<title>Employee Application</title>
+	</head>
+	<body ng-app="app" ng-controller='LoginController'>
+
+
+<div class="sidenav">
+         <div class="login-main-text">
+            <h2>Retinoil85 Employee<br> Login Page</h2>
+            <p>Login or register from here to access.</p>
+         </div>
+      </div>
+      <div class="main">
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+               <form>
+                  <div class="form-group">
+                     <label>User Name</label>
+                     <input type="text" class="form-control" placeholder="User Name"ng-model="username">
+                  </div>
+                  <div class="form-group">
+                     <label>Password</label>
+                     <input type="password" class="form-control" placeholder="Password" ng-model="password">
+                  </div>
+                  <button type="submit" class="btn btn-black" ng-click="JWToken({username,password},'application/json',home)">Login</button>
+                  <button type="submit" class="btn btn-secondary">Register</button>
+               </form>
+            </div>
+         </div>
+      </div>
+
+
+	<script type="text/javascript" th:src="@{/static/js/jquery-3.2.1.min.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/bootstrap.min.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/angular.min.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/app.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/login/HomeController.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/login/AuthService.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/login/LoginController.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/dipendente/service.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/requestInterceptors.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/fontawesome.min.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/solid.min.js}"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+	</body>
+</html>

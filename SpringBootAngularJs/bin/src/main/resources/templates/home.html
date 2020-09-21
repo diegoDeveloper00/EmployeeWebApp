@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="utf-8"></meta>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" th:href="@{/static/css/bootstrap.min.css}"></link>
+	<link rel="stylesheet" th:href="@{/static/css/fontawesome.min.css}"></link>
+	<link rel="stylesheet" th:href="@{/static/css/solid.min.css}"></link>
+	<link rel="stylesheet" th:href="@{/static/css/app.css}"></link>
+
+</head>
+<body ng-app="app">
+
+<div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+      <a class="nav-link" href="#!home">Home<span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#!dipendenti">Dipendenti</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+  </div>
+
+
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+
+ 
+<p>Home Dipendenti Web App</p>
+<div ng-view></div>
+
+	<script type="text/javascript" th:src="@{/static/js/jquery-3.2.1.min.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/bootstrap.min.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/angular.min.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/app.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/dipendente/controller.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/dipendente/service.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/fontawesome.min.js}"></script>
+	<script type="text/javascript" th:src="@{/static/js/solid.min.js}"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+
+</body>
+</html>
