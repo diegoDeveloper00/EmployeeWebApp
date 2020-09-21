@@ -27,3 +27,4 @@ You can create,read,delete and update employees.
 - [x] Base implementation of JWT
 - [ ] Database authentication
 - [ ] Manages Roles and Authorization for db user
+- [ ] Implementing UIRouting on AngularJs
