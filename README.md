@@ -23,7 +23,14 @@ The application is composed by two modules:
 ## Project Structure
 
 - PersonaleWebService 
-- SpringBootAngularJs
+  - src/main/java classes for RestFul API and Jwt implementation
+  - src/main/resources/application.properties properties to
+connect to the database
+- SpringBootAngularJs 
+  - src/main/java classes to control html pages
+  - src/main/resources
+    - static composed by: Js folder, css folder
+    - templates composed by html pages
 
 ---
 ## RoadMap
