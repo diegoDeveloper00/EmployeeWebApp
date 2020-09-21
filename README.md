@@ -3,6 +3,7 @@
 ## Introduction
 
 This is a web app to manage Employee.
+You can create,read,delete and update employees.
 
 ---
 ### Technologies used:
