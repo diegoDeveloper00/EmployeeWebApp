@@ -7,7 +7,7 @@ You can create,read,delete and update employees.
 
 ---
 ### Technologies used:
-- Spring MVC
+- Spring MVC ![Test Image 1](spring logo.png)
    - Spring Data 
     - Spring Security
      - JWT
