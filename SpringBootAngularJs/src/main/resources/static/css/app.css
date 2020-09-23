@@ -57,7 +57,7 @@ body {
     }
 
     .sidenav{
-        width: 40%;
+        width: fit-content;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -75,7 +75,7 @@ body {
 
 
 .login-main-text{
-    margin-top: 20%;
+    margin-top: 60%;
     padding: 60px;
     color: #fff;
 }

@@ -88,4 +88,20 @@ public class Utente {
 		this.dipendente = dipendente;
 	}
 
+	public Utente(int id, String username, String password, String roles, String permissions, Dipendente dipendente) {
+		super();
+		this.id = id;
+		this.username = username;
+		this.password = password;
+		this.roles = roles;
+		this.permissions = permissions;
+		this.dipendente = dipendente;
+	}
+
+	public Utente() {
+		super();
+	}
+	
+	
+
 }
