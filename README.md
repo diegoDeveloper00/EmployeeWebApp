@@ -43,6 +43,7 @@ connect to the database
 - [x] Front-End creation
 - [x] Base authentication with Spring security
 - [x] Base implementation of JWT
-- [ ] Database authentication
+- [x] Database authentication
+- [ ] Implementing session
 - [ ] Manages Roles and Authorization for db user
 - [ ] Implementing UIRouting on AngularJs
